@@ -6,3 +6,36 @@
         --umber: #A06340;
           --orange: #AF6B46;
           }
+
+* {
+    color:var(--brown);
+    }
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #FFF1E6;
+}
+
+
+/* Header */
+ h1 {
+  border: #605243, solid, 5px;
+  flex-wrap: wrap;
+ }
+/* Question box */
+
+
+/* button */
+.b1 {
+
+}
+
+/* Footer */
+footer {
+  
+}
