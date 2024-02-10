@@ -19,6 +19,9 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
   background-color: #FFF1E6;
+  display: flex;
+  align-content: center;
+  align-items: center;
 }
 
 
@@ -37,5 +40,5 @@ body {
 
 /* Footer */
 footer {
-  
+
 }
