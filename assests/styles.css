@@ -1,18 +1,4 @@
 /* General CSS */
-:root {
-  --brown: #605243;
-    --green: #A5A58D;
-      --cream: #FFF1E6;
-        --umber: #A06340;
-          --orange: #AF6B46;
-          }
-
-* {
-    color:var(--brown);
-    }
-
-
-
 body {
   margin: 0;
   padding: 0;
@@ -26,22 +12,25 @@ body {
 
 
 /* Header */
- h1 {
+h1 {
   border: #605243, solid, 5px;
   flex-wrap: wrap;
- }
-/* Question box */
+}
 
+/* Question box */
+.qBox {
+  border: #605243, solid, 10px;
+  background-color: #A06340;
+}
 
 /* buttons */
-.nextB {
+.buttons {}
 
-}
-.prevB {
-  
-}
+#nextB {}
+
+#prevB {}
 
 /* Footer */
 footer {
-
+  
 }
