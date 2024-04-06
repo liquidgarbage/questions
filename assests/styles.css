@@ -21,12 +21,18 @@ h1 {
   background-color: #cac3bb;
 }
 
+/* question look */
+#HTMLquestion {
+  padding: 3%;
+}
+
+
 /* buttons */
-/* .buttons {}
+.buttons {}
 
 #nextB {}
 
-#prevB {} */
+#prevB {}
 
 /* Footer */
 footer {
