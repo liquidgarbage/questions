@@ -1,36 +1,35 @@
 /* General CSS */
 body {
-  margin: 0;
-  padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
-  background-color: #FFF1E6;
-  display: flex;
-  align-content: center;
-  align-items: center;
+  background-color: #d2e0d0;
+  display: inline-block;
+  text-align: center;
+
+
 }
 
 
 /* Header */
 h1 {
-  border: #605243, solid, 5px;
-  flex-wrap: wrap;
+  border: #fffdfa, solid, 5px;
 }
 
 /* Question box */
 .qBox {
-  border: #605243, solid, 10px;
-  background-color: #A06340;
+  border: #bbbbbb, solid, 10px;
+  background-color: #cac3bb;
 }
 
 /* buttons */
-.buttons {}
+/* .buttons {}
 
 #nextB {}
 
-#prevB {}
+#prevB {} */
 
 /* Footer */
 footer {
-  
+  display: inline-block;
+  text-align: left; 
 }
