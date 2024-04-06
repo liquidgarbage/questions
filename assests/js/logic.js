@@ -1,7 +1,7 @@
 
 console.log(questionsArray)
 
-let question = questionsArray[Math.floor(Math.random()*questionsArray.length)];
+let question = questionsArray[Math.floor(Math.random() * questionsArray.length)];
 document.getElementById('HTMLquestion').innerHTML = question;
 
 //mathrandom to generate array
@@ -11,3 +11,10 @@ document.getElementById('HTMLquestion').innerHTML = question;
 
 //on click next button math random in array
 //addEventListener
+let nextButton = document.getElementById('nextB');
+
+nextButton.addEventListener('click', function () {
+    console.log(question)
+    questionsArray[Math.floor(Math.random() * questionsArray.length)];
+    //splice new q in to old one
+})

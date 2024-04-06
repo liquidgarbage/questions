@@ -19,6 +19,7 @@ h1 {
 .qBox {
   border: #bbbbbb, solid, 10px;
   background-color: #cac3bb;
+  padding: 4%;
 }
 
 /* question look */
@@ -28,11 +29,15 @@ h1 {
 
 
 /* buttons */
-.buttons {}
+.buttons {
+}
 
-#nextB {}
+#nextB {
+  padding: 1%;
+  border-radius: 15%;
+}
 
-#prevB {}
+/* #prevB {} */
 
 /* Footer */
 footer {
