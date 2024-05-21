@@ -1,5 +1,5 @@
 /* General CSS */
-body {
+/* body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
   background-color: #d2e0d0;
@@ -7,40 +7,40 @@ body {
   text-align: center;
 
 
-}
+} */
 
 
 /* Header */
-h1 {
+/* h1 {
   border: #fffdfa, solid, 5px;
-}
+} */
 
 /* Question box */
-.qBox {
+/* .qBox {
   border: #bbbbbb, solid, 10px;
   background-color: #cac3bb;
   padding: 4%;
-}
+} */
 
 /* question look */
-#HTMLquestion {
+/* #HTMLquestion {
   padding: 3%;
-}
+} */
 
 
 /* buttons */
-.buttons {
+/* .buttons {
 }
 
 #nextB {
   padding: 1%;
   border-radius: 15%;
-}
+} */
 
 /* #prevB {} */
 
 /* Footer */
-footer {
+/* footer {
   display: inline-block;
   text-align: left; 
-}
+} */
