@@ -5,10 +5,15 @@
 ## Description
 I have been writing a questions notebook to help with conversation for 10 years.
 I've collected hundereds of questions.
+
+
 The goal with this project is to digitise my notebook and create a web page for all to use.
 I want to put in to practice the web dev skills I have been building over the past year.
 
-This project involved 
+I'm using HTML, CSS and Javascript for the inital version. 
+
+I would like to make advanced versions using newer skills learnt such as  Bootstrap, React, and having the questions be an external database. 
+
 
 ## Installation
 
