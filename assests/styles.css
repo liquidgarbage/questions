@@ -1,46 +1,44 @@
 /* General CSS */
-/* body {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   line-height: 1.5;
   background-color: #d2e0d0;
   display: inline-block;
   text-align: center;
-
-
-} */
-
+}
 
 /* Header */
-/* h1 {
+h1 {
   border: #fffdfa, solid, 5px;
-} */
+}
 
 /* Question box */
 /* .qBox {
-  border: #bbbbbb, solid, 10px;
+  border: #bbbbbb, solid, 1px;
   background-color: #cac3bb;
   padding: 4%;
-} */
+}  */
 
 /* question look */
 /* #HTMLquestion {
   padding: 3%;
 } */
 
-
 /* buttons */
-/* .buttons {
-}
 
 #nextB {
   padding: 1%;
-  border-radius: 15%;
-} */
+  font-size: 24px;
+  width: 50%;
+
+}
 
 /* #prevB {} */
 
 /* Footer */
-/* footer {
+footer {
   display: inline-block;
-  text-align: left; 
-} */
+  text-align: left;
+  padding: 2%;
+}

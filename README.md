@@ -39,3 +39,10 @@ Mobile view
 ## License
 
 Please refer to the LICENSE in the repo.
+
+## To-do
+- form for users to submit questions
+- button for users to report questions
+- local storage use so remebers where user left off?
+- previous question button?
+- questions in external database, google sheet?
