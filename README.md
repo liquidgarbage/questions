@@ -1,6 +1,5 @@
 # Questions
-
-
+[link to deployed page]()
 
 ## Description
 I have been writing a questions notebook to help with conversation for 10 years.
@@ -22,11 +21,6 @@ N/A
 ## Usage
 The site can be used to make conversation using the questions
 
-desktop view
-![desktop screen](images/desktop.png)
-
-Mobile view
- ![phone screen](images/mobile.png)
 
 ## Credits
 [EDX Skills Bootcamp in Front-End Web Development](https://www.edx.org/boot-camps/coding/skills-bootcamp-in-front-end-web-development)
