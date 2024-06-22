@@ -1,12 +1,13 @@
 let nextButton = document.getElementById('nextB');
+//let prevButton = document.getElementById('prevB');
+let visibleQuestion = document.getElementById('HTMLquestion')
 
-nextButton.addEventListener('click', function () {
+function nextQ() {
     question = questionsArray[Math.floor(Math.random() * questionsArray.length)];
-    document.getElementById('HTMLquestion').innerHTML = question;
-})
+    visibleQuestion.textContent = question;
+}
 
 
-// let prevButton = document.getElementById('prevB');
 // prevButton.addEventListener('click', function () {
 //     // Retrieve the previously selected question
 //     let previousQuestion = document.getElementById('HTMLquestion').innerHTML;
