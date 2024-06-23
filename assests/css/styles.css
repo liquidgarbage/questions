@@ -4,40 +4,61 @@ body {
     "Lucida Sans", Arial, sans-serif;
   line-height: 1.5;
   background-color: #d2e0d0;
-  display: inline-block;
   text-align: center;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 10vh, 60vh, 20vh, 10vh;
+  grid-template-areas: 
+    "header"
+    "question"
+    "buttons"
+    "footer"
+  ;
 }
 
 /* Header */
 h1 {
-  border: #fffdfa, solid, 5px;
+  grid-area: "header";
 }
+
+
+
 
 /* Question box */
-/* .qBox {
-  border: #bbbbbb, solid, 1px;
-  background-color: #cac3bb;
-  padding: 4%;
-}  */
-
-/* question look */
-/* #HTMLquestion {
-  padding: 3%;
-} */
-
-/* buttons */
-
-#nextB {
-  padding: 1%;
-  font-size: 24px;
-  width: 50%;
-
+.qBox {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+  grid-area: "question";
+  justify-content: center;
+  /* margin: 3%;
+  height: 20%; */
+  /* position: static; */
 }
 
-/* #prevB {} */
+/* question look */
+
+#HTMLquestion {
+  border: 2px solid #ffa94d;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+
+/* buttons */
+button {
+  grid-area: quesions;
+  padding: 1%;
+  font-size: 24px;
+  width: 20%;
+  margin: 2%;
+}
 
 /* Footer */
 footer {
+  grid-area: footer;
   display: inline-block;
   text-align: left;
   padding: 2%;
