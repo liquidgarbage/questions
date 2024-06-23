@@ -1,24 +1,21 @@
+let nextButton = document.getElementById('nextB');
+let prevButton = document.getElementById('prevQ');
+let visibleQuestion = document.getElementById('HTMLquestion')
 let questionHistory = []
 
-
-
-let nextButton = document.getElementById('nextB');
-//let prevButton = document.getElementById('prevB');
-let visibleQuestion = document.getElementById('HTMLquestion')
 
 function nextQ() {
     question = questionsArray[Math.floor(Math.random() * questionsArray.length)];
     visibleQuestion.textContent = question;
+    //questions added to questionHistory array 
 }
 
 
-function prevB() {
-
+function prevQ() {
+//gets q from questionHistory 
+//in reverse order
+//shows on visibleQuestion
 }
-// prevButton.addEventListener('click', function () {
-//     // Retrieve the previously selected question
-//     let previousQuestion = document.getElementById('HTMLquestion').innerHTML;
-//     question = previousQuestion;
-//     document.getElementById('HTMLquestion').textContent = question;
 
-// })
+
+//start button with description in <p> hide next and previous, show next and previous when pressed start and hide start.  
