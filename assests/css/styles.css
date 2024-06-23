@@ -5,24 +5,11 @@ body {
   line-height: 1.5;
   background-color: #d2e0d0;
   text-align: center;
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: 10vh, 60vh, 20vh, 10vh;
-  grid-template-areas: 
-    "header"
-    "question"
-    "buttons"
-    "footer"
-  ;
 }
 
 /* Header */
 h1 {
-  grid-area: "header";
 }
-
-
-
 
 /* Question box */
 .qBox {
@@ -31,25 +18,17 @@ h1 {
   background-color: #ffd8a8;
   padding: 1em;
   color: #d9480f;
-  grid-area: "question";
-  justify-content: center;
-  /* margin: 3%;
-  height: 20%; */
-  /* position: static; */
 }
 
 /* question look */
 
 #HTMLquestion {
-  border: 2px solid #ffa94d;
-  background-color: #ffd8a8;
-  padding: 1em;
-  color: #d9480f;
+  height: 3em;
+  justify-content: center;
 }
 
 /* buttons */
 button {
-  grid-area: quesions;
   padding: 1%;
   font-size: 24px;
   width: 20%;
@@ -58,8 +37,7 @@ button {
 
 /* Footer */
 footer {
-  grid-area: footer;
-  display: inline-block;
+  justify-content: end;
   text-align: left;
   padding: 2%;
 }
