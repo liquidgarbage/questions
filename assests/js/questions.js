@@ -1,3 +1,6 @@
+// make this link to external source
+
+// let externalLink = "https://docs.google.com/document/d/your-document-id/edit";
 let questionsArray = [
   "What is your favouite kind of pen?",
   "Fave biscuit?",
@@ -89,3 +92,4 @@ let questionsArray = [
   "when do you feel attractive?",
   "odd or matching socks?",
 ];
+
