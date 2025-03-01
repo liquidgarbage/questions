@@ -1,5 +1,5 @@
 # Questions
-[link to deployed page](liquidgarbage.github.io/questions)
+[link to deployed page](questionbook.netlify.app)
 
 ## Description
 I have been writing a questions notebook to help with conversation for 10 years.
