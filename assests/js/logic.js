@@ -1,17 +1,21 @@
 let nextButton = document.getElementById("nextB");
-let prevButton = document.getElementById("prevQ");
+let prevButton = document.getElementById("prevB");
 let visibleQuestion = document.getElementById("HTMLquestion");
 let questionHistory = [];
+let currentIndex = -1;
 
 function nextQ() {
-  question = questionsArray[Math.floor(Math.random() * questionsArray.length)];
+  let question = questionsArray[Math.floor(Math.random() * questionsArray.length)];
   visibleQuestion.textContent = question;
   questionHistory.push(question);
+  currentIndex = questionHistory.length - 1;
+  prevButton.style.display = "inline";
 }
 
 function prevQ() {
-  oldQuestion = questionHistory.at(-2);
-  visibleQuestion.textContent = oldQuestion;
+  if (currentIndex > 0) {
+    currentIndex--;
+    let oldQuestion = questionHistory[currentIndex];
+    visibleQuestion.textContent = oldQuestion;
+  }
 }
-
-//start button with description in <p> hide next and previous, show next and previous when pressed start and hide start.
