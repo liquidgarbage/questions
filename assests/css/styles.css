@@ -1,38 +1,65 @@
 /* General CSS */
 body {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: 'Gloria Hallelujah', sans-serif;
   line-height: 1.5;
   background-color: #d2e0d0;
   text-align: center;
 }
+.gloria-hallelujah-regular {
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 /* Header */
 /* h1 {
 } */
 
-/* Question box */
+/* Question box
 .qBox {
   border: 2px solid #ffa94d;
   border-radius: 5px;
   background-color: #ffd8a8;
   padding: 1em;
   color: #d9480f;
-}
+} */
 
 /* question look */
 
 #HTMLquestion {
   height: 3em;
   justify-content: center;
+  color: #d9480f;
 }
 
 /* buttons */
-button {
+/* button {
   padding: 1%;
   font-size: 24px;
   width: 20%;
   margin: 2%;
+} */
+
+button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #dd492a;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+button:active {
+
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 /* Footer */
