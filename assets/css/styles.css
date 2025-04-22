@@ -2,8 +2,11 @@
 body {
   font-family: 'Gloria Hallelujah', sans-serif;
   line-height: 1.5;
-  background-color: #d2e0d0;
+  /* background-color: #d2e0d0; */
   text-align: center;
+  background-image: url("/assets/css/lined.jpg");
+  /* background-attachment: fixed;  
+  background-size: cover */
 }
 .gloria-hallelujah-regular {
   font-family: "Gloria Hallelujah", cursive;
@@ -28,6 +31,7 @@ body {
 /* question look */
 
 #HTMLquestion {
+  padding: 2em;
   height: 3em;
   justify-content: center;
   color: #d9480f;
